@@ -11,8 +11,7 @@ from proxyscrape import create_collector, get_collector, Proxy
 import threading
 
 c = CurrencyConverter()
-apiusrnme = bytes.fromhex('4368617568616e323030336b6340676d61696c2e636f6d').decode('utf-8')
-apikey = bytes.fromhex('45333746323041452d444545442d334238462d444636462d374531333637304132423732').decode('utf-8')
+
 os.system('cls')
 v = requests.session()
 def get_stock_price():
