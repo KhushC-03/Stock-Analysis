@@ -420,10 +420,14 @@ def menu():
             print(c)
             menu()
     elif I1 == '3':    
+        try:
             share_price_notifications()
             input('Press ENTER to continue')
             os.system('cls')
-            menu()      
+            menu() 
+        except Exception as c:
+            print(c)
+            menu()
     elif I1 =='4': 
         try:       
             setup_number()
