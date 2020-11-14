@@ -389,7 +389,7 @@ def thread_monitor(i,I1,stocks,delay,I2,email,api_key,note,number,):
 def menu():
     print('\n| 1 | Get Stock Price')
     time.sleep(0.05)
-    print('| 2 | Calculate Your Amount Of Share')
+    print('| 2 | Calculate Your Amount Of Shares')
     time.sleep(0.05)
     print('| 3 | Setup Stock Price Notifications')
     time.sleep(0.05)
